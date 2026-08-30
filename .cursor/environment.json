@@ -1,13 +1,13 @@
 {
-  "name": "test01 static site",
+  "name": "test01 nuxt app",
   "terminals": [
     {
       "name": "web",
-      "command": "python3 -m http.server 8080",
-      "description": "Serves the static site (index.html) at http://localhost:8080"
+      "command": "pnpm dev --host 0.0.0.0 --port 3000",
+      "description": "Serves the Nuxt app at http://localhost:3000"
     }
   ],
   "ports": [
-    { "name": "web", "port": 8080 }
+    { "name": "web", "port": 3000 }
   ]
 }
