@@ -5,5 +5,8 @@ useHead({
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <div>
+    <h1>Hello World</h1>
+    <p>GitHub / Vercel 連携テスト</p>
+  </div>
 </template>
